@@ -1,0 +1,8 @@
+/* Custom Styles */
+.red .top-header {
+    background-color: darkred !important;
+}
+
+.page-contents {
+    background-color: #fff !important;
+}

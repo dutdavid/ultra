@@ -1,0 +1,100 @@
+/* Colors */
+:root{
+	--primary-color: #821F08;
+    --primary-boder-color: #821F08;
+}
+
+/* Custom Shop Styles */
+.page-contents {
+	background-color: #fff !important;
+}
+
+/* Changing Themes */
+
+
+.cyan .featured-products .product .image_overlay {
+    background: var(--primary-color) !important;
+}
+
+.featured-products .btn:hover {
+    background: #fff;
+    color: var(--primary-color) !important;
+    cursor: pointer;
+}
+
+.cyan .top-header {
+    background-color: var(--primary-color);
+}
+
+
+.cyan .navbar .navbar-nav>.active>a, .cyan .navbar .navbar-nav>.active>a:active, .cyan .navbar .navbar-nav>.active>a:focus, .cyan .navbar .navbar-nav>.active>a:hover, .cyan .navbar .navbar-nav>.open>a, .cyan .navbar .navbar-nav>.open>a:active, .cyan .navbar .navbar-nav>.open>a:focus, .cyan .navbar .navbar-nav>.open>a:hover, .cyan .navbar .navbar-nav>li>a:active, .cyan .navbar .navbar-nav>li>a:focus, .cyan .navbar .navbar-nav>li>a:hover {
+    background-color: var(--primary-color);
+    color: #fff!important;
+}
+
+
+.cyan .btn-theme.active, .cyan .btn-theme:active, .cyan .btn-theme:hover, .open>.cyan .btn-theme.dropdown-toggle {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-boder-color);
+}
+
+
+.cyan .btn-theme {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-boder-color);
+}
+
+.cyan .featured-products .product .stats-container .product_price {
+    color: var(--primary-color) !important;
+}
+
+.cyan .featured-products .stats-container .product_name a{
+    color: var(--primary-color) !important;
+}
+
+.featured-products .product {
+    min-height: 340px;
+}
+
+.featured-products .product img {
+    margin: 0 auto;
+    max-height: 220px;
+}
+
+.cyan .top-header ul.list-inline>li .bootstrap-select.open>.dropdown-toggle, .cyan .top-header ul.list-inline>li .dropdown.open>.dropdown-toggle {
+    background-color: #d93d32;
+    color: #fff;
+}
+
+.cyan .top-header ul.list-inline>li .dropdown-toggle:active, .cyan .top-header ul.list-inline>li .dropdown-toggle:focus, .cyan .top-header ul.list-inline>li .dropdown-toggle:hover, .cyan .top-header ul.list-inline>li>a:active, .cyan .top-header ul.list-inline>li>a:focus, .cyan .top-header ul.list-inline>li>a:hover {
+    background-color: #d93d32;
+    border-color: #d93d32;
+}
+
+.cyan .main-header .cart-btn>button:hover {
+    border-color: var(--primary-boder-color);
+}
+
+.cyan .main-header .btn-search {
+    background-color: var(--primary-color);
+    border-color: transparent;
+    color: #fff;
+}
+
+.featured-products .stats-container {
+    width: 100%;
+}
+
+.cart-btn{
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
